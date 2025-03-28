@@ -247,6 +247,7 @@ footer .parceiros{
     display: flex;
     flex-direction: column;
 }
+<<<<<<< HEAD
 
 /* Edição dos vídeos todos  */
 
@@ -270,3 +271,5 @@ footer .parceiros{
 .caixa::-webkit-scrollbar{
     width: 0px;
 }
+=======
+>>>>>>> 97bd1fd305ed6bdeb100e692f8c08abfd9f0ea1d
