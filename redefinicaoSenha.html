@@ -1,19 +1,27 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang=" pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="redefinicaoSenha.css">
+    <title>login</title>
 </head>
 <body>
-    <section class="secao1">
-        <h2>Nova Senha</h2>
-        <label for="">Senha</label><input type="text" placeholder="Insere o seu Email"><br>
-        <p>Esteja ciente de que o Email está correto, pois é através 
-            dele que vai receber o link da  redefinição da Senha.</p>
-        <p>Você é novo aqui</p>
-        <button>Enviar</button>
-        </section>
+    
+    <main class="container">
+        <form>
+            <h1>Redefinição da Senha</h1>
+            <div class="input-box">
+                <input placeholder="Digite o seu Email" type="email">
+                <i class="bx bxs-user"></i>
+            </div>
+            <button type="submit" class="login"><a href="login.html" style="text-decoration: none;">Enviar</a></button>
+            <div class="registrer-link">
+                <p>Não tem uma conta?<a href="cadastroUsuario.html">Cadastre-se</a></p>
+            </div>
+        </form>
+    </main>
+    
 </body>
 </html>

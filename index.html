@@ -4,14 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+    <style>
+      i{
+         font-size: 30px;
+         margin: 5px;
+      }
+    </style>
 </head>
 <body>
     <nav>
         <ul>
-            <li class="logo"><a href="" >MyMovies</a></li>
-            <li><a href="">Iniciar</a></li>
-            <li><select name="" id="">
+            <li class="logo"><a href="index.html" >MyMovies</a></li>
+            <li><a href="index.html">Iniciar</a></li>
+            <li><select name="" id="" style="background-color: rgb(65, 65, 65); color: white;">
                <a href=""><option value="" >Gênero</option></a>
                <a href=""><option value="">Ação</option></a>
                <a href=""><option value="">Comédia</option></a>
@@ -19,114 +27,119 @@
                <a href=""><option value="">Drama</option></a>
             </select></li>
             <li><a href="">Novidades</a></li>
-            <li><input type="text" class="pesquisa" style="margin-right: 20px;"></li>
             <li><a href="www.google.com" class="botaoPesquisa"></a></li>
             <li><a href="">Perfil</a></li>
         </ul>
     </nav>
     <section class="videoContainer" >
-      <h1>Nome Do Filme</h1>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam modi impedit recusandae inventore quos rem sapiente doloribus molestiae delectus perspiciatis?</p>
-      <video autoplay class="video-detalhes" controls>
+      <div class="apresentacaoVideo">
+         <h1>Título: Timepiece</h1>
+         <p class="textoVideo">O Filme trata da vida de um relojoeiro idoso, interpretado por James Earl Jones, que enfrenta o racismo e é acusado de assassinato quando um racista é morto. No entanto, Kevin Kilner, que interpreta David Parkin, assume a responsabilidade pelo crime, alegando legítima defesa. Enquanto isso, a vida familiar de Kilner está em desordem, com várias crises, incluindo sua filha contraindo meningite</p>
+         <a href="assistirFilme.html"><button class="botao1" id="bot1"><i class="fa-solid fa-play"></i>Assistir</button></a>
+         <a href=""><button class="botao2"><i class="fa-solid fa-circle-info"></i>Mais Informações</button></a>
+      </div>
+      <video class="video-detalhes" autoplay>
          <source src="Filmes/Timepiece (2024) _ Short Film.mp4" >
       </video>
    </div>
+   </section>
+   <div class="caixa">
+      <iframe class="item" src="https://www.youtube.com/embed/XYzJM5t9FbQ?si=G6i4ME-8RGqRpPsV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+      <iframe class="item" src="https://www.youtube.com/embed/PS5cYWwFXcQ?si=KqRvOHReAYn9artZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-   
-   <h2>Mais assistidos</h2>
-    <section class="secao2"  >
-     <div class="di">
-     </div>
-     <div class="di">
-      <!--
-      <video autoplay class="donzela"controls>
-      <source src="./Filmes/Donzela ｜ Trailer oficial ｜ Netflix.mp4" type="">
-        <h1 class="centra" >Donzela</h1>
-      </video>
-      -->
-     </div>
-     <div class="di">
-        <h1>Filme 3</h1>
-     </div>
-     <div class="di">
-        <h1>Filme 4</h1>
-     </div>
-    </section>
-    <h2>Filmes de ação</h2>
-    <section class="secao2">
-     <div class="di">
-       <h1>Filme 1</h1>
-     </div>
-     <div class="di">
-        <h1>Filme 2</h1>
-     </div>
-     <div class="di">
-        <h1>Filme 3</h1>
-     </div>
-     <div class="di">
-        <h1>Filme 4</h1>
-     </div>
-    </section>
-    <h2>Fimes de comédia</h2>
-    <section class="secao2">
-     <div class="di">
-        <h1>Filme 1</h1>
-     </div>
-     <div class="di">
-        <h1>Filme 2</h1>
-     </div>
-     <div class="di">
-        <h1>Filme 3</h1>
-     </div>
-     <div class="di">
-        <h1>Filme 4</h1>
-     </div>
-    </section>
-    <section class="secao2">
-      <div class="di">
-         <h1>Filme 1</h1>
-      </div>
-      <div class="di">
-         <h1>Filme 2</h1>
-      </div>
-      <div class="di">
-         <h1>Filme 3</h1>
-      </div>
-      <div class="di">
-         <h1>Filme 4</h1>
-      </div>
-     </section>
-     <section class="secao2">
-      <div class="di">
-         <h1>Filme 1</h1>
-      </div>
-      <div class="di">
-         <h1>Filme 2</h1>
-      </div>
-      <div class="di">
-         <h1>Filme 3</h1>
-      </div>
-      <div class="di">
-         <h1>Filme 4</h1>
-      </div>
-     </section>
-     <section class="secao2">
-      <div class="di">
-         <h1>Filme 1</h1>
-      </div>
-      <div class="di">
-         <h1>Filme 2</h1>
-      </div>
-      <div class="di">
-         <h1>Filme 3</h1>
-      </div>
-      <div class="di">
-         <h1>Filme 4</h1>
-      </div>
-     </section>
+      <iframe class="item" src="https://www.youtube.com/embed/TgMuCz43WOY?si=0LpEDgEqYd929l-5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+      <iframe class="item" src="https://www.youtube.com/embed/x_3AbqvTia8?si=p4SY2BaMktQMoLDV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+      <iframe class="item" src="https://www.youtube.com/embed/WNLWsYNXlmY?si=ZTNQ-o5kRaN2ZsFB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+      <iframe  class="item" src="https://www.youtube.com/embed/CXHQOIezblw?si=FvYtwIGIhc23zEHf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+   </div>
+
+   <div class="caixa">
+      <iframe class="item" src="https://www.youtube.com/embed/IquF6sk6kYg?si=yh1GdlQ8qohqGA-g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+      <iframe class="item" src="https://www.youtube.com/embed/PS5cYWwFXcQ?si=ufXhs5OOV--K7-dZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+      <iframe class="item" src="https://www.youtube.com/embed/k95kAmVO07U?si=hci8uMqJE_GWJ2Lq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+      <iframe class="item" src="https://www.youtube.com/embed/K0iaPIj_uJY?si=3Tkqb67U38xaUOq6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+      <iframe class="item" src="https://www.youtube.com/embed/9wRBM_fqW1U?si=7z35tMf4AcVR40c_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+      <iframe class="item" src="https://www.youtube.com/embed/WLVfGNixby8?si=nmLvwoAn9QpagVCY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+   </div>
+
+   <div class="caixa">
+      <iframe class="item" src="https://www.youtube.com/embed/xO_1BRUj0dk?si=62eraJqT2CIEVDnx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+      <iframe class="item" src="https://www.youtube.com/embed/YJeqBrjbARA?si=kt3EP2HWt_S_PEy3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+      <iframe class="item" src="https://www.youtube.com/embed/gtUCiSnrW5k?si=xYNkU-CVPOz6rjJC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+      <iframe class="item" src="https://www.youtube.com/embed/5o5N4GQwt9k?si=ILp05YZOBa1H-2-Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+      <iframe class="item" src="https://www.youtube.com/embed/1QTGNzgMK0A?si=tpvc3l94I9NdKnwg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+      <iframe class="item" src="https://www.youtube.com/embed/KJMAAzFe0hY?si=UyML7AdZUr7WwuuP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+   </div>
     
-    
-    <footer class="rodape"><h1>RODAPÉ</h1></footer>
+   <div class="caixa">
+      <iframe class="item" src="https://www.youtube.com/embed/dcHh6syGp24?si=uznBTcNRGoGTeyc8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+      <iframe class="item" src="https://www.youtube.com/embed/i1jBCckm5zc?si=KLZpn5GV0SO51c5c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+      <iframe class="item" src="https://www.youtube.com/embed/YNRLBHDnUw0?si=DHDVrlwIeCZ4O2Vz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+      <iframe class="item" src="https://www.youtube.com/embed/oZZgoICmRa4?si=KJA_Xe2Q_WxIfAQP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+      <iframe class="item" src="https://www.youtube.com/embed/tcEqmvuUHyk?si=tb6M7mZ56KpQDhW5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+      <iframe class="item" src="https://www.youtube.com/embed/RSEr46u55hs?si=Emqbl1Dnfqn2rIHX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+   </div>
+
+   <div class="caixa">
+      <iframe class="item" src="https://www.youtube.com/embed/zDkx7y8ezC0?si=tu-HWo_92hJjGK99" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+      <iframe class="item" src="https://www.youtube.com/embed/m_5ll0r9ALw?si=Pg72aFwwLKSr6z9I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+      <iframe class="item" src="https://www.youtube.com/embed/IYHi-X9ymH0?si=xlf6ql1SgJWaWH2H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+      <iframe class="item" src="https://www.youtube.com/embed/9D4R9HGmAUQ?si=ADHP61UXMEdwgDo_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+      <iframe class="item" src="https://www.youtube.com/embed/c5e6zdg7B-Y?si=dZBcDbetKmafzSKX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+      <iframe class="item" src="https://www.youtube.com/embed/ZBSRGVxHNVg?si=h8mkE3tY-QcVk5ct" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+   </div>
+
+   <footer>
+      <div class="foot1">
+        <div class="foot">
+          <h2>Features</h2>
+          <p style="margin: 5px;">Home</p>
+          <p style="margin: 5px;">Notícias</p>
+          <p style="margin: 5px;">Sobre Nós</p>
+          <p style="margin: 5px;">Contacto</p>
+        </div>
+        <div class="foot">
+          <h2>Contact Us</h2>
+          <p>Facebook <i class="fa-brands fa-facebook"></i></p>
+          <p>Instagram <i class="fa-brands fa-instagram"></i></p>
+          <p>Youtube <i class="fa-brands fa-youtube"></i></p>
+          <p>TikTok <i class="fa-brands fa-tiktok"></i></p>
+        </div>
+        <div class="foot">
+          <h2>Copyright Information</h2>
+          <div class="parceiros">
+            <p style="margin: 5px;">© 2025 Mymovies Company</p>
+            <p style="margin: 5px;">Todos os direitos reservados</p>
+            <p style="margin: 5px;">Minas Gerais, Brasil.</p>
+            <p style="margin: 5px;">Terms of Use | Privacy Policy</p>
+          </div>
+        </div>
+      </div>
+    </footer>
 </body>
-</html
+</html   
