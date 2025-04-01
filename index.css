@@ -247,17 +247,18 @@ footer .parceiros{
     display: flex;
     flex-direction: column;
 }
-<<<<<<< HEAD
+
 
 /* Edição dos vídeos todos  */
 
 .caixa{
     width: 1350px;
     height: 300px;
-    background-color: cornsilk;
+    background-color: rgba(0, 0, 0, 0.5);
     border: solid 5px black;
     display: flex;
     overflow-x: auto;
+
 }
 
 .caixa .item{
@@ -271,5 +272,4 @@ footer .parceiros{
 .caixa::-webkit-scrollbar{
     width: 0px;
 }
-=======
->>>>>>> 97bd1fd305ed6bdeb100e692f8c08abfd9f0ea1d
+

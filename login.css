@@ -133,3 +133,22 @@ body{
 .registrer-link a:hover{
     text-decoration: underline ;
 }
+
+
+
+
+/* ---------- Estilos dinâmicos ---------- */
+.required-popup::after {
+    content: "*Campo obrigatório";
+    position: relative;
+    left: 1px;
+    top: 2px;
+    color: white;
+    font-size: .65rem;
+    padding: .2rem .3rem;
+    margin: 2px;
+    width: 110px;
+    display: block;
+    background-color: rgba(0, 0, 255, 0.1);
+    border-radius: 20px;
+  }

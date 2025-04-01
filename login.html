@@ -6,22 +6,26 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="login.css">
     <title>login</title>
+    <script src="login.js" defer></script>
 </head>
 <body>
     
     <main class="container">
         <form>
             <h1>Longin</h1>
+
             <div class="input-box">
-                <input placeholder="usuario" type="email">
+                <label id="userLabel" for=""></label>
+                <input id="usuario" placeholder="usuario" type="email">
                 <i class="bx bxs-user"></i>
             </div>
 
             <div class="input-box">
-                <input placeholder="senha" type="password">
+                <label id="userLabel2" for=""></label>
+                <input id="senha" placeholder="senha" type="password">
                 <i class="bx bxs-lock-alt"></i>
             </div>
-
+            
             <div class="remember-forgot">
                 <label>
                     <input type="checkbox">
@@ -30,7 +34,7 @@
                 <a href="redefinicaoSenha.html">Esqueci a senha</a>
             </div>
 
-            <button type="submit" class="login"><a href="index.html" style="text-decoration: none;">Login</a></button>
+            <button type="submit" id="botao" class="login" onclick="entrar()"><a id="link" href="index.html" style="text-decoration: none;">Login</a></button>
 
             <div class="registrer-link">
                 <p>Não tem uma conta?<a href="cadastroUsuario.html">Cadastre-se</a></p>
